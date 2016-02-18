@@ -1,0 +1,4 @@
+#!/bin/bash
+source config
+./assemble
+pandoc $name.md -o $name.docx

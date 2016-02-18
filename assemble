@@ -1,0 +1,4 @@
+#!/bin/bash
+source config
+rm $name.md
+pandoc *.md -o $name.md
